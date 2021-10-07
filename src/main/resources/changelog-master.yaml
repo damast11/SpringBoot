@@ -1,0 +1,15 @@
+databaseChangeLog:
+  - property:
+      name: datafeed.path
+      value: dev
+      context: dev
+  - property:
+      name: datafeed.path
+      value: local
+      context: local
+
+  # Init from csv-files changesets for load update
+  - include:
+      file: init/students.yaml
+  - include:
+      file: data/data.sql
