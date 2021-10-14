@@ -1,0 +1,5 @@
+spring:
+  message: Hello im from dev profile
+
+server:
+  port: 9091
